@@ -1,0 +1,39 @@
+{
+  "name": "aceleradev",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "cross-env": "^5.2.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env CI=true react-scripts test --env=jsdom",
+    "exec": "cross-env CI=true react-scripts test --env=jsdom --json",
+    "eject": "react-scripts eject",
+    "submit": "codenation-jest-score ./score-map.json"
+  },
+  "description": "Neste desafio, você criará uma interface para listar e filtrar receitas.",
+  "main": "\"C:\\Users\\Johny Walker\\codenation\\react-0\\src\\index.js\"",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoUnias/aceleradev.git"
+  },
+  "keywords": [
+    "sd220197"
+  ],
+  "author": "bruno unias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoUnias/aceleradev/issues"
+  },
+  "homepage": "https://github.com/BrunoUnias/aceleradev#readme"
+}
